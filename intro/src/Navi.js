@@ -39,10 +39,10 @@ export default class Navi extends React.Component {
                 <NavLink href="https://github.com/busegoc"> Github </NavLink>
               </NavItem>
               <UncontrolledButtonDropdown nav inNavbar>
-                <DropdownToggle nev caret>
+                <DropdownToggle nav caret>
                   options - {this.props.cart.length}
                 </DropdownToggle>
-                <DropdownMenu right>
+                <DropdownMenu end>
                   <DropdownItem>
                     option 1
                   </DropdownItem>

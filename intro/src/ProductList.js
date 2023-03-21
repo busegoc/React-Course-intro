@@ -50,7 +50,7 @@ export default class ProductList extends Component {
                   {product.unitsInStock}
                 </td>
                 <td>
-                  <Button onClick={(product)=>this.props.addtoCart(product)} color="info">
+                  <Button onClick={()=>this.props.addtoCart(product)} color="info">
                     add
                   </Button>
                 </td>
